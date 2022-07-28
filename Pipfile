@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+scikit-learn = "*"
+pyarrow = "*"
+awscli-local = "*"
+awscli = "*"
+
+[dev-packages]
+pytest = "*"
+fsspec = "*"
+s3fs = "*"
+
+[requires]
+python_version = "3.9"
